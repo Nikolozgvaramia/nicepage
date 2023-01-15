@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.center-cont {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* header */
+
+header {
+    padding: 15px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-inner a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-inner .logo {
+    font-size: 26px;   
+}
+
+header .menu {
+    list-style: none;
+}
+
+header .menu li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .menu li a {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.cover {
+    width: 100%;
+    height: 735px;
+    background-image: url(../images/04c92f4b1888be1f59c0cf8549526806.jpeg);
+    background-position: center;
+}
+
+
+/* places */
+
+.places {
+    padding: 60px 0;
+}
+
+.places > h1 {
+    
+    color: #478ac9;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.places > p {
+    margin: 10px 0 90px;
+    color: #478ac9;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.places-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.place-card img {
+    vertical-align: middle;
+}
+
+.place-card > img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.place-bottom {
+    background-color: #fff;
+    padding: 20px 10px;
+}
+
+.place-bottom  img {
+    width: 30px;
+}
+
+.place-bottom i {
+    color: black;
+}
